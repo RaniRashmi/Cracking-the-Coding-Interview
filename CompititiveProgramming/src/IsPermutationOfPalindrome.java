@@ -43,9 +43,10 @@ public class IsPermutationOfPalindrome {
 		// TODO Auto-generated method stub
 		int a = Character.getNumericValue('a');
 		int z = Character.getNumericValue('z');
+		int val = Character.getNumericValue(value);
 		
-		if(a<= value && value <=z) {
-			return value-a;
+		if(a<= val && val <=z) {
+			return val-a;
 		}
 		return -1;
 	}
